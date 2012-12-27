@@ -7,7 +7,7 @@ external-url:
 categories: [Trello, Awesome Software, Fog Creek]
 ---
 
-![Trello on iOS](images/post_images/trello.png)
+![Trello on iOS](http://benmccormick.org/images/post_images/trello.png)
 
 I’ve been using Trello to manage the development process for my new project.  It is an absolutely fantastic tool for managing any type of small scale project.  It keeps things simple and helps you see the big picture. Its deeply flexible workflow consists of a hierarchy of boards, lists, cards and notes/checklists.  You can have multiple team members  sharing a board, with different cards assigned to different members.
 

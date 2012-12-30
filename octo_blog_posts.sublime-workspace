@@ -63,7 +63,49 @@
 			"file": "2012-12-20-awesome-software-trello.markdown",
 			"settings":
 			{
-				"buffer_size": 1313,
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "---\nlayout: post\ntitle: \"Medium: The end of History and the last website\"\ndate: 2012-12-25 21:00\ncomments: true\nexternal-url: https://medium.com/the-sea-of-fog/3877ef6d968c\ncategories: [Medium, Web Site]\n---\n{% blockquote Robin Sloan, Medium https://medium.com/the-sea-of-fog/3877ef6d968c The end of history and the last website %}\nthe whole experience I’ve just described is part of the argument for a site like Medium. That argument goes: No writer should be in the business of making a personal website. They’re hard to find, readers rarely return to them, and besides—let me just contribute this last part myself—they aren’t even fun to make anymore.\n{% endblockquote %}\n\nSo are websites heading the way of cars?  Becoming so specialized and complicated that only teams of  professionals with specialized knowledge can handle them?     \n\nI would argue that they're differentiated by the virtual nature of their materials.  Websites have effectively 0 upfront cost after the initial cost of a working computer and internet connection, which is getting lower all the time.  And their virtual nature allows for easy sharing of materials.  This is best seen in the open source movement.  To make a website its not necessary to write a webserver, because Apache exists.  To create a blog, its not necessary to know php or even html.  You can use Wordpress, Moveable Type or Octopress.  To have a professional design, you can use any of many themes provided by designers across the web for free or cost.   \n\nTo build a website, you don't need to know everything, you can build on the foundations laid by others.  I'm building this blog on top of octopress, and for now am only contributing content of my own.  But its likely that in the future I'll choose to add more, either with the theming or in plugins.  I won't have to build everything from scratch, but I'll be able to tinker.  It's a middle ground that doesn't exist for cars.  And it means that the amateur web can continue to move along and reap benefits from the work of professional teams, while history continues as normal.   \n\n",
+			"file": "2012-12-25-medium-the-end-of-history-and-the-last-website.markdown",
+			"file_size": 2113,
+			"file_write_time": 130009629500588558,
+			"settings":
+			{
+				"buffer_size": 2089,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_drafts/softwareiuse.md",
+			"settings":
+			{
+				"buffer_size": 6748,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "---\nlayout: post\ntitle: \"Cleaning My Digital House\"\ndate: 2012-12-29 1:00\ncomments: true\nexternal-url: \ncategories: [Software, Productivity]\n---\n\n\nI'm cleaning my digital house this new year.  I've been a confessed addict to trying new services and hardware for some time now.  While I don't think there's anything wrong with trying new things and figuring out what you like best, I was beginning to suspect that my experimentation was causing me to be less efficient than I expected.  After reading Chris Webb's [excellent post][goodbyeservice] on rethinking his digital services and rereading Alex Payne's [Rules for Computing Happiness][computinghappiness], I decided to take inventory of my computing services.  The results were... illuminating.\n\nOver the past year and a half I have used the following software extensively (used as a main solution for some use case for at least a month):\n\n* 5 Desktop Operating Systems (Windows 7, Windows 8, OSX, RHEL, Ubuntu)\n* 2 Mobile OS's (Windows Phone 7, iOS)\n* 3 Browsers (Chrome, Firefox, IE9/10)\n* 3 Desktop Music Clients (iTunes, Zune, Spotify)\n* 5 Code Editors (Eclipse, Notepad++, Sublime Text 2, Visual Studio, VIM)\n* 6 Desktop/web Email Clients (Gmail.com, Outlook.com, Outlook, Thunderbird, Mail.app, Sparrow)\n* 6 Task Management Apps: Things, Omnifocus, Wunderlist, Remember the Milk, Clear, Nirvana (And I downloaded a bunch more)\n* 3 Note taking solutions (Evernote, OneNote, text notes in markdown)\n* 4 Blogging Platforms (Blogger,Wordpress, Tumblr, Self-build Django Blog)\n* Saving Content For Later (Instapaper, Email, Chrome bookmarks)\n\n... I could keep going.\n\nI decided last week that I wanted to simplify the services that I used, for the different use cases I'd identified during my inventory.  I then wanted to simplify those services according to the following rules.\n\n1. Use as little software as possible (this is Alex's first rule, and I think its his best)\n2. Learn the software I do use (using 100 different things has not let me go deep into any of the software that I use)\n3. Pay to own and control my content\n4. Use software that works together across platforms well\n\nSo I took a look at the things I'm doing with my software and asked: \"Do I control my content?\", and \"Is there a way this could be simpler?\".  \n\n\n\n\n\n\n\n\n[computinghappiness]: http://al3x.net/2008/09/08/al3xs-rules-for-computing-happiness.html Alex Payne's Rules for Computing Happiness\n[goodbyeservice]: http://blog.mediumequalsmessage.com/goodbye-ubiquitous-digital-service?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+mediumequalsmessage%2Fcwebbdesign+%28cwebbdesign%29 Chris Webb's Goodbye to ubiqitous digital services",
+			"file": "_posts/2012-12-29-cleaning-my-digital-house.markdown",
+			"file_size": 2517,
+			"file_write_time": 130012329771231920,
+			"settings":
+			{
+				"buffer_size": 2679,
+				"line_ending": "Windows",
+				"name": "---"
+			}
+		},
+		{
+			"contents": "---\nlayout: page\ntitle: \"Sublime Text Guide\"\ndate: 2012-12-26 18:44\ncomments: true\nsharing: true\nfooter: true\n---\n\n[Sublime Text 2][Sublime] is a text editor created by [John Skinner][Skinner] for Windows, OSX, and Linux.  It is widely used, especially among web programmers, and has been praised for its speed, ease of use, platform support, and excellent plugin support.  There have been several efforts around the web to create guides for those looking to start using Sublime Text 2, including the [\"officially unofficial\" documentation][unofficialdocs] and the [\"officially official\" documentation][officialdocs] on the Sublime site. However, none of them provide a comprehensive and approachable introduction for somebody just getting started with Sublime Text.  Thats the goal of this guide.\n\n## Contents\n\n* [Motivation](#motivation)\n* [First Steps](#firststeps)\n* [Navigation](#navigation)\n* [Editing](#editing)\n* [Configuration](#configuration)\n* [Plugins](#plugins)\n* [Projects](#projects)\n* [Snippets](#snippets)\n* [Tips](#tips)\n* [Sources](#sources)\n\n\n<h2 id=\"motivation\">Motivation</h2>\n\n\n<h2 id=\"firststeps\"> First Steps </h2>\n\n#### Installation & Set Up\n\n1. You can download Sublime Text [here][sublimedownload].  Sublime Text is free to try, with only an occasional \"nag notice\" to interrupt unlicensed usage.  If you're using it on a regular basis though, you are of course encouraged to [buy it][sublimebuy].  \n2. Installation is mostly straightforward, packages are provided for OSX, Windows and Linux in their native formats (.dmg,.exe,.tar.bz2).  Note that the Linux version may not be compatible with all versions of Linux.  It is statically linked to libraries that some older distributions, including RHEL5 may not provide.  \n3. A crucial first step to being productive with Sublime Text is to install Package Control.  This can be found at the [developer's website][packagecontrol] along with [installation instructions][pcinstall].\n4. You will probably want to create shortcuts for the program on the command line and from your launcher. These are operating system specific.\n\n\n\n<h2 id=\"navigation\"> Navigation </h2>\n\nOne of the key sources of power in Sublime Text is \n\n#### Inter-File Navigation\n\n#### Inner-File Navigation\n\n##### Selecting Text\n\n\n\n<h2 id=\"editing\"> Editing </h2>\n\n<h2 id=\"configuration\"> Configuration </h2>\n\n<h2 id=\"plugins\"> Plugins </h2>\n\n<h2 id=\"projects\"> Projects </h2>\n\n<h2 id=\"snippets\"> Snippets </h2>\n\n<h2 id=\"tips\"> Tips and Tricks </h2>\n\n<h2 id=\"sources\"> Sources </h2>\n\n\n[Sublime]: http://www.sublimetext.com/ Sublime Text Website\n[Skinner]: http://www.twitter.com/sublimehq John Skinner's Twitter\n[unofficialdocs]: http://docs.sublimetext.info/en/latest/index.html Sublime Text Unofficial Docs\n[officialdocs]: http://www.sublimetext.com/docs/2/ Sublime Text Official Docs\n[sublimedownload]: http://www.sublimetext.com/2 Download Sublime Text\n[sublimebuy]: http://www.sublimetext.com/buy Buy Sublime Text\n[packagecontrol]: http://wbond.net/sublime_packages/package_control Package Control\n[pcinstall]: http://wbond.net/sublime_packages/package_control/installation Package Control Install",
+			"file": "sublime-text-guide/index.markdown",
+			"file_size": 3126,
+			"file_write_time": 130010532624265102,
+			"settings":
+			{
+				"buffer_size": 3145,
 				"line_ending": "Windows"
 			}
 		}
@@ -244,6 +286,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/bemccorm/SkyDrive/example.txt",
 		"/C/Users/bemccorm/Documents/ScratchCalc/scratchcalc/test/tokenizer-test.js",
 		"/C/Users/bemccorm/Documents/ScratchCalc/scratchcalc/ext/qunit.js",
 		"/C/Users/bemccorm/Documents/ScratchCalc/scratchcalc/test/scanner-test.js",
@@ -370,8 +413,7 @@
 		"/C/Users/bemccorm/AppData/Roaming/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
 		"/C/users/bemccorm/appdata/local/temp/sublime-sftp-browse-1347419918/benmccormickorg/sftp-config.json",
 		"/C/Users/bemccorm/Dropbox/Goals/goal_tracking",
-		"/C/users/bemccorm/appdata/local/temp/sublime-sftp-browse-1347419918/benmccormickorg/public_html/experiments/bridges/wp-content/themes/wordpress-bootstrap/style.css",
-		"/C/Users/bemccorm/Dropbox/aptproblemanalysis.txt"
+		"/C/users/bemccorm/appdata/local/temp/sublime-sftp-browse-1347419918/benmccormickorg/public_html/experiments/bridges/wp-content/themes/wordpress-bootstrap/style.css"
 	],
 	"find":
 	{
@@ -561,7 +603,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -569,7 +611,7 @@
 					"file": "2012-12-20-awesome-software-trello.markdown",
 					"settings":
 					{
-						"buffer_size": 1313,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -687,6 +729,515 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2012-12-25-medium-the-end-of-history-and-the-last-website.markdown",
+					"settings":
+					{
+						"buffer_size": 2089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"bitwise": true,
+								"browser": true,
+								"curly": true,
+								"devel": false,
+								"dojo": true,
+								"eqeqeq": true,
+								"indent": 4,
+								"jQuery": true,
+								"latedef": true,
+								"maxlen": 80,
+								"newcap": true,
+								"noempty": true,
+								"nonew": true,
+								"quotmark": "double",
+								"undef": true,
+								"unused": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_drafts/softwareiuse.md",
+					"settings":
+					{
+						"buffer_size": 6748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4073,
+								4073
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"bitwise": true,
+								"browser": true,
+								"curly": true,
+								"devel": false,
+								"dojo": true,
+								"eqeqeq": true,
+								"indent": 4,
+								"jQuery": true,
+								"latedef": true,
+								"maxlen": 80,
+								"newcap": true,
+								"noempty": true,
+								"nonew": true,
+								"quotmark": "double",
+								"undef": true,
+								"unused": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1457.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2012-12-29-cleaning-my-digital-house.markdown",
+					"settings":
+					{
+						"buffer_size": 2679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2287,
+								2287
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "---",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"bitwise": true,
+								"browser": true,
+								"curly": true,
+								"devel": false,
+								"dojo": true,
+								"eqeqeq": true,
+								"indent": 4,
+								"jQuery": true,
+								"latedef": true,
+								"maxlen": 80,
+								"newcap": true,
+								"noempty": true,
+								"nonew": true,
+								"quotmark": "double",
+								"undef": true,
+								"unused": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 141.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sublime-text-guide/index.markdown",
+					"settings":
+					{
+						"buffer_size": 3145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2194,
+								2194
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"bitwise": true,
+								"browser": true,
+								"curly": true,
+								"devel": false,
+								"dojo": true,
+								"eqeqeq": true,
+								"indent": 4,
+								"jQuery": true,
+								"latedef": true,
+								"maxlen": 80,
+								"newcap": true,
+								"noempty": true,
+								"nonew": true,
+								"quotmark": "double",
+								"undef": true,
+								"unused": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 443.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

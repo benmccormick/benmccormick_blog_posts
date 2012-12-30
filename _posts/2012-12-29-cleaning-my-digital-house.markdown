@@ -10,6 +10,8 @@ categories: [Software, Productivity]
 
 I'm cleaning my digital house this new year.  I've been a confessed addict to trying new services and hardware for some time now.  While I don't think there's anything wrong with trying new things and figuring out what you like best, I was beginning to suspect that my experimentation was causing me to be less efficient than I expected.  After reading Chris Webb's [excellent post][goodbyeservice] on rethinking his digital services and rereading Alex Payne's [Rules for Computing Happiness][computinghappiness], I decided to take inventory of my computing services.  The results were... illuminating.
 
+#### Bad Habits
+
 Over the past year and a half I have used the following software extensively (used as a main solution for some use case for at least a month):
 
 * 5 Desktop Operating Systems (Windows 7, Windows 8, OSX, RHEL, Ubuntu)
@@ -27,14 +29,16 @@ Over the past year and a half I have used the following software extensively (us
 
 I decided last week that I wanted to simplify the services that I used, for the different use cases I'd identified during my inventory.  I then wanted to simplify those services according to the following rules.
 
+#### Ben's Software Rules
+
 1. Use as little software as possible (this is Alex's first rule, and I think its his best)
 2. Learn the software I do use (using 100 different things has not let me go deep into any of the software that I use)
 3. Pay to own and control my content
 4. Use software that works together across platforms well
 
-So I took a look at the things I'm doing with my software and asked: "Do I control my content?", and "Is there a way this could be simpler?".  I put the result of my software inventory [here][softwareinventory].  In the end I settled on a small(er) subset of the software and services I'd used before, and committed to using that subset for 2013.  Rather than sampling every single new thing, I'm going to work on getting the most out of some of the great software and services that are already available to me.  
-=======
-So I took a look at the things I'm doing with my software and asked: "Do I control my content?", and "Is there a way this could be simpler?".  
+#### A new leaf
+
+After looking backwards, I took a look at the things I'm doing with my software and asked: "Do I control my content?", and "Is there a way this could be simpler?".  I put the result of my software inventory [here][softwareinventory].  In the end I settled on a small(er) subset of the software and services I'd used before, and committed to using that subset for 2013. Rather than sampling every single new thing, I'm going to work on getting the most out of some of the great software and services that are already available to me, and use my apps as tools rather than toys.
 
 
 
@@ -44,9 +48,5 @@ So I took a look at the things I'm doing with my software and asked: "Do I contr
 
 
 [computinghappiness]: http://al3x.net/2008/09/08/al3xs-rules-for-computing-happiness.html Alex Payne's Rules for Computing Happiness
-<<<<<<< HEAD
 [goodbyeservice]: http://blog.mediumequalsmessage.com/goodbye-ubiquitous-digital-service?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+mediumequalsmessage%2Fcwebbdesign+%28cwebbdesign%29 Chris Webb's Goodbye to ubiqitous digital services
-[softwareinventory]: http://benmccormick.org/software-inventory/2012/
-=======
-[goodbyeservice]: http://blog.mediumequalsmessage.com/goodbye-ubiquitous-digital-service?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+mediumequalsmessage%2Fcwebbdesign+%28cwebbdesign%29 Chris Webb's Goodbye to ubiqitous digital services
->>>>>>> 74bed679bd952b45e2fc1a0419d4bff70dc8469f
+[softwareinventory]: http://benmccormick.org/software-inventory/2012/ Ben McCormick's 2012 Software Inventory

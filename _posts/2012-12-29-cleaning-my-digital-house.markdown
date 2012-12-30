@@ -32,11 +32,9 @@ I decided last week that I wanted to simplify the services that I used, for the 
 3. Pay to own and control my content
 4. Use software that works together across platforms well
 
-<<<<<<< HEAD
 So I took a look at the things I'm doing with my software and asked: "Do I control my content?", and "Is there a way this could be simpler?".  I put the result of my software inventory [here][softwareinventory].  In the end I settled on a small(er) subset of the software and services I'd used before, and committed to using that subset for 2013.  Rather than sampling every single new thing, I'm going to work on getting the most out of some of the great software and services that are already available to me.  
 =======
 So I took a look at the things I'm doing with my software and asked: "Do I control my content?", and "Is there a way this could be simpler?".  
->>>>>>> 74bed679bd952b45e2fc1a0419d4bff70dc8469f
 
 
 

@@ -19,7 +19,7 @@ footer: true
 * [Plugins](#plugins)
 * [Projects](#projects)
 * [Snippets](#snippets)
-* [tips](#tips)
+* [Tips](#tips)
 * [Sources](#sources)
 
 
@@ -28,7 +28,7 @@ footer: true
 
 <h2 id="firststeps"> First Steps </h2>
 
-#### Installation
+#### Installation & Set Up
 
 1. You can download Sublime Text [here][sublimedownload].  Sublime Text is free to try, with only an occasional "nag notice" to interrupt unlicensed usage.  If you're using it on a regular basis though, you are of course encouraged to [buy it][sublimebuy].  
 2. Installation is mostly straightforward, packages are provided for OSX, Windows and Linux in their native formats (.dmg,.exe,.tar.bz2).  Note that the Linux version may not be compatible with all versions of Linux.  It is statically linked to libraries that some older distributions, including RHEL5 may not provide.  
@@ -39,9 +39,15 @@ footer: true
 
 <h2 id="navigation"> Navigation </h2>
 
+One of the key sources of power in Sublime Text is 
+
 #### Inter-File Navigation
 
 #### Inner-File Navigation
+
+##### Selecting Text
+
+
 
 <h2 id="editing"> Editing </h2>
 

@@ -17,6 +17,10 @@ should be applicable to any developer who uses Sublime Text as part of their wor
 
 ## Keyboard Shortcuts
 
+![Keyboard Shortcuts](http://benmccormick.org/images/post_images/Sublime_cheat_sheet.png)
+
+#####Update: Get a [printable cheat sheet here](http://benmccormick.org/images/post_images/sublime_cheatsheet.pdf))
+
 When you've gotten comfortable with a quality text editor, it should really be unnecessary to 
 move your hands off the keyboard. Sublime Text gives you a ton of power without ever touching
 your mouse.  It takes a little while to get up to speed with its way of doing things, but the 

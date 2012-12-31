@@ -22,6 +22,8 @@ move your hands off the keyboard. Sublime Text gives you a ton of power without 
 your mouse.  It takes a little while to get up to speed with its way of doing things, but the 
 more you use these shortcuts, the more you want to use Sublime Text.
 
+<!-- more -->
+
 ##### Note: I will be using windows based commands for these examples.  In general they are the same for linux, and similar for OSX, with command replacing ctrl, and alt replacing shift in some cases.  
 
 ## Navigation
@@ -36,11 +38,11 @@ So you could start typing "mpag" and the editor would instantly load up mainPage
 The real power of Go To Anything though comes when you combine it with subcommands. 
 Go To Anything supports 3 subcommands
 
-* @ - this lets you specify a function within the file that you want to go to.  This can
+* __@__ - this lets you specify a function within the file that you want to go to.  This can
 also be fuzzy-matched, so chb@setbg might take you immediately to the setBackground 
 method of the chartbuilder.js file.  
-* : - this lets you go to a line by number.  So chb:100 will take you to line 100 of chartbuilder.js
-* # - this lets you search for a string in the file so chb#extend will take you to 
+* __:__ - this lets you go to a line by number.  So chb:100 will take you to line 100 of chartbuilder.js
+* __\#__ - this lets you search for a string in the file so chb#extend will take you to 
 the first occurence of "extend" in Chartbuilder.js.  
 
 You can also use these subcommands by themselves (Ctrl+ subcommand) to navigate within the current file.
@@ -72,28 +74,28 @@ sets of commands.  If anybody knows the difference, please enlighten me in the c
 
 Sublime Texts bookmarks make it easy to move to predetermined locations in the file.  Bookmarks are set to a specific location in the file. There are several shortcuts associated with them.  
 
-* Ctrl + F2 - Toggles a bookmark from the current location.
-* F2 - Go to next bookmark
-* Shift + F2 - Go to previous bookmark
-* Alt + F2 - puts a cursor at each bookmark location
-* Ctrl + Shift + F2 - Clear all bookmarks
+* __Ctrl + F2__ - Toggles a bookmark from the current location.
+* __F2__ - Go to next bookmark
+* __Shift + F2__ - Go to previous bookmark
+* __Alt + F2__ - puts a cursor at each bookmark location
+* __Ctrl + Shift + F2__ - Clear all bookmarks
 
 #### Search Commands
 
 Sublime Text has a fairly standard set of search commands, with a few special twists
 
-* Ctrl + F - Search
-* Ctrl + Shift + F - Search in other files (gives a listing of all findings in a new file, you can use f4 to iterate over the results within their files)
-* F3 - Find Next
-* Shift + F3 - Find Previous
-* Ctrl + H - Replace
-* Ctrl + E - Search for current selection
+* __Ctrl + F__ - Search
+* __Ctrl + Shift + F__ - Search in other files (gives a listing of all findings in a new file, you can use f4 to iterate over the results within their files)
+* __F3__ - Find Next
+* __Shift + F3__ - Find Previous
+* __Ctrl + H__ - Replace
+* __Ctrl + E__ - Search for current selection
 
 
 #### A few more minor shortcuts
 
-* Ctrl + M - Go to a matching bracket.  Goes to the end of the innermost set of brackets if not currently on a bracket.
-* Ctrl + K then Ctrl + C - Scrolls to move cursor to center of the screen
+* __Ctrl + M__ - Go to a matching bracket.  Goes to the end of the innermost set of brackets if not currently on a bracket.
+* __Ctrl + K then Ctrl + C__ - Scrolls to move cursor to center of the screen
 
 
 ## Selection and Multiple Cursors
@@ -146,28 +148,28 @@ Moves to a new line below the current line.  Ctrl + Shift + Enter moves to a new
 
 #### Delete shortcuts
 
-* Ctrl + del - Delete word forward (removes the rest of the word from cursor)
-* Ctrl + backspace - Delete word backward
-* Ctrl + Shift + K - Delete Line
-* Ctrl + K, Ctrl + K - Delete Line forward
-* Ctrl + K, Ctrl + backspace - Delete line backwards
+* __Ctrl + del__ - Delete word forward (removes the rest of the word from cursor)
+* __Ctrl + backspace__ - Delete word backward
+* __Ctrl + Shift + K__ - Delete Line
+* __Ctrl + K, Ctrl + K__ - Delete Line forward
+* __Ctrl + K, Ctrl + backspace__ - Delete line backwards
 
 #### Mark Commands
 
-* Ctrl + k then Ctrl + space - Add a mark
-* Ctrl + k then Ctrl + A - Select to mark
-* Ctrl + k then Ctrl + W - Delete To mark
-* Ctrl + k then Ctrl + X - Switch Location with mark 
-* Ctrl + k then Ctrl + G - Clear Mark
+* __Ctrl + k then Ctrl + space__ - Add a mark
+* __Ctrl + k then Ctrl + A__ - Select to mark
+* __Ctrl + k then Ctrl + W__ - Delete To mark
+* __Ctrl + k then Ctrl + X__ - Switch Location with mark 
+* __Ctrl + k then Ctrl + G__ - Clear Mark
 
 #### Some Quickies
 
-* Ctrl + ] - Indent a line
-* Ctrl + [ - Unindent a line 
-* Ctrl + shift + up/down - Swap a line upwards/downwards
-* Ctrl + J - join line with next line
-* Ctrl + Shift + D - Duplicate line
-* Ctrl + T- Transposes the letter/word prior to the cursor with the one after.  I've never actually found a use for this in my js coding.
+* __Ctrl + ]__ - Indent a line
+* __Ctrl + [__ - Unindent a line 
+* __Ctrl + shift + up/down__ - Swap a line upwards/downwards
+* __Ctrl + J__ - join line with next line
+* __Ctrl + Shift + D__ - Duplicate line
+* __Ctrl + T__ - Transposes the letter/word prior to the cursor with the one after.  I've never actually found a use for this in my js coding.
 
 
 ## Finding The Power

@@ -27,7 +27,7 @@ Over the past year and a half I have used the following software extensively (us
 
 ... I could keep going.
 
-I decided last week that I wanted to simplify the services that I used, for the different use cases I'd identified during my inventory.  I then wanted to simplify those services according to the following rules.
+I decided last week that I wanted to simplify the services that I used for the different use cases I'd identified during my inventory.  I then wanted to simplify those services according to the following rules.
 
 #### Ben's Software Rules
 

@@ -14,7 +14,7 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 ## Use Cases & Solutions
 
-### Web Browsing in Windows
+#### Web Browsing in Windows
 
 * **Chrome** - I don't love Google's business model.  And their designs are hit and miss. But they really do make some great software.  In my experience Chrome is the best browser to debug with, the fastest, and handles multiple tabs & searching the best.  
 
@@ -26,11 +26,11 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Opera - I'm just not that nonconformist
 
-### Web Browsing on iPhone
+#### Web Browsing on iPhone
 
 * **Safari** - really the only viable option. Chrome/Dolphin/etc might be great, but since all 3rd parties don't let you open to them...
 
-### Search Engine
+#### Search Engine
 
 * **Google** - Again I don't love google, but they give the best results
 
@@ -38,7 +38,7 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Duck Duck Go - I haven't gotten this frustrated with Google yet.
 
-### Personal Social Network
+#### Personal Social Network
 
 * **Facebook** - The only thing that does what it does.
 
@@ -46,7 +46,7 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Google + - Ghost Town for people I know.
 
-### Networking/Professional Social Network
+#### Networking/Professional Social Network
 
 * Twitter - In theory the best option, and I'm pretty committed to it, 
 
@@ -56,18 +56,18 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * App.Net - Seems to be a good place to find Apple devs and such.  Not so sure about web programmers.  May try a one month membership to check it out.
 
-### Professional Portfolio Site
+#### Professional Portfolio Site
 
 * **LinkedIn** - I don't update this as often as I like, but hard to beat for a place people will actually see your information.
 
 * Personal Website - I had some info here for a while as now, but I'd rather put my resume info in an easy to maintain place where recruiters can see it and link to my other stuff (blog, online work, etc from there)
 
 
-### Real Time News Source
+#### Real Time News Source
 
 * **Twitter** - Really the only thing that fits my needs here.  Instant updates for tech, sports, and world news
 
-### Long Form News Source
+#### Long Form News Source
 
 * **Google Reader** - Easily the best way for me to track news sources.  I don't really use it for discovery, but I check it every day for the things I care about 
 
@@ -78,46 +78,46 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 * Twitter - I recently unfollowed all my "news feed" twitter accounts, figuring that I already had Reader for that and they just added noise to my twitter feed
 
 
-### Music Source
+#### Music Source
 
 * **iTunes/iCloud/iTunes Match** - allows me to own and control my own music, widely used and supported
 * Spotify - I've been using spotify for the past year, with the paid $5 version, but I've realized my music tastes aren't diverse enough to justify the cost, and I'm worried about what will happen if the costs of the streaming model start to jump up at some point. 
 
-### Desktop Photoediting
+#### Desktop Photoediting
 
 * Paint.NET - have heard great things about this, haven't had the chance to try it yet
 
 * GIMP - have used this extensively over the past few years, not thrilled with it
 
-### Mobile Photoediting
+#### Mobile Photoediting
 
 * Snapseed - Seems like google is choosing to support this, and its now free.  Great app
 
-### Mobile Maps
+#### Mobile Maps
 
 * **Google Maps** - has always been solid
 * Apple Maps - they're really as bad as you've heard.
 
-### eReading (MultiPlatform)
+#### eReading (MultiPlatform)
 
 * **Kindle** - I think its the best, and I'm so deeply invested it hardly matters if it is or not.
 
-### iPhone Alarm Clock
+#### iPhone Alarm Clock
 
 * **Sleep Cycle** - wakes you up within a half-hour range based on your movements as you sleep.  Helps you feel good as you wake up.
 * Default Clock - works fine for an exact wakeup time.  I still use this sometimes if I need an exact wakeup time, or for timing other things
 
-### iPhone Weather
+#### iPhone Weather
 
 * **Check the Weather** - A fast, beautiful, fun weather app for iOS.  Its well worth the $0.99 for anyone who checks the weather on a consistent basis.  Faster and more informative than any free app.
 
-### iPhone Bible App
+#### iPhone Bible App
 
 * **ESV Bible App** - The translation I want, simple, easy to use. It focuses on reading, which is what I want with this.
 
 * YouVersion Bible App - Kept adding more fluff till I switched.  Tries to force you to sign up for a web service, many features I don't care about.  If you want to take notes within your bible app and have compatibility & syncing on all major platforms though its great.
 
-### Instant Messaging
+#### Instant Messaging
 
 * **Gmail Web Client** - Simple, usually open for me anyway. 
 
@@ -129,7 +129,7 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Adium - Bonus mention of the best IM client I've ever used.  Only available on OSX, so not an option for me right now.
 
-### Blogging
+#### Blogging
 
 * **Octopress** - Creates static HTML pages, lets me write in markdown in a text editor.  I control my content.  Only downside is that I don't want to try and make it work in windows
 
@@ -139,7 +139,7 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Do it yourself - I built a Django based blogging platform earlier this year that I had a lot of fun building and was fairly proud of.  Unfortunately I had no interest in building a full CMS, and it was a pain to get new posts into the blog.  It was a fun experiment, but it made writing hard, and blogging no fun.
 
-### Email Service
+#### Email Service
 
 * **Gmail** - I've used it for years, I love the label/archive workflow, and its always been superfast, especially on searches.  I've tried various clients, but I really like the web interface best.
 
@@ -147,7 +147,7 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Outlook.com - Experimented with this for a while.  Its beautiful and generally works fine (though I had all type of issues exporting my mail from gmail, which seems to not be a common problem).  Just didn't have any compelling reason why I should switch.  Its contacts manager also didn't work very well on the iPhone, because contacts were linked rather than merged, leading to many duplicate iPhone contacts.  Great service though, would have no problem recommending for those with a microsoft heavy workflow who are starting fresh
 
-### Notes
+#### Notes
 
 * **Text Notes with Markdown** - I have complete control, can use dropbox to sync them, and will be easily portable to any platform.  Lets me use Sublime Text for this as well.
 
@@ -155,11 +155,11 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * OneNote - Used this for a while.  Its great if you're heavy into microsoft stuff and skeuomorphic design, but it never felt like it was a good fit for me. Certainly quality software though, especially now that its gone multi-platform.
 
-### Calendar Service
+#### Calendar Service
 
 * **Google Calendar** - I've never loved it, but haven't seen anything that came even close to tempting me to switch.  Could use iCloud with outlook I suppose, but I don't really like using outlooks calendar.  Any suggestions for a good Windows Desktop Calendar?
 
-### Task Management
+#### Task Management
 
 * **Wunderlist 2**-Cross platform, simple and fun to use, they recently made it much more powerful.  Only worry is that its free and its company seems to completely lack a business model.  I'd happily pay $2-$5 an app
 
@@ -173,15 +173,15 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Nirvana/Remember The Milk/Toodledo - Lets just say I've tried a bunch of these
 
-### Screenshots
+#### Screenshots
 
 * **Skitch** - Recently came to Windows.  That made me happy.  Makes sharing screenshots easy and fun
 
-### PDFs
+#### PDFs
 
 * **Foxit PDF Reader** - Lighter weight than Adobe Reader
 
-### Saving Content for later
+#### Saving Content for later
 
 * **Pinboard** - This was a good solution to combine things I'd done in 3 ways (Instapaper, bookmarks, emailing to myself) and bring all my "reference later" links together in one place.  Light, fast and simple.  Still getting used to it, but I'm happy so far
 
@@ -189,35 +189,35 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Chrome Bookmarks - I used these to save "resources" I wanted to refer to later, as opposed to articles I wanted to read later.  Since it didn't sync to my phone (yes I know there's a chrome app), pinboard makes more sense
 
-### Text Editing
+#### Text Editing
 
 * **Sublime Text 2** - Very easy choice.  Powerful, fast, easy to navigate, good community support.  Blew away everything else I've used.  Only sad note is that it doesn't run on RHEL5, which I have to run for work.  Hoping to get my dev VM upgraded to RHEL6 soon, on which it apparently runs without issues.
 
 * Notepad++ - Was great till I discovered ST2.  If you want a free editor on Windows and don't want to use ST2 without a license I'd recommend this.
 
-### Java Programming
+#### Java Programming
 
 * **Eclipse** - Best option for my work.  Great community support, very powerful.  Just wish it wasn't quite so slow.  (Also using this for javascript programming on RHEL5 for now)
 
-### VNC Viewer
+#### VNC Viewer
 
 * UltraVNC Viewer- I've used it, don't love it.  I may experiment with tightVNC soon
 
-### FTP
+#### FTP
 
 * **Filezilla** - Only thing I've used, but very happy with it. I've also heard good things about Cyberduck.
 
-### SSH
+#### SSH
 
 * **Putty** - Haven't fully explored this.  I'm vaguely aware that there are ways to make PUTTY more powerful, but haven't really explored this.  Is there a better way to do this?
 
-### Version Control
+#### Version Control
 
 * **Git** - I use Git for all my personal stuff now, Github for public projects and Bitbucket for private projects.  I'm still learning it, but very happy with it
 
 * **Clearcase** - What I use at work.  Works reasonably well for what we do, but Git workflow seems much more productive.
 
-### File Syncing
+#### File Syncing
 
 * Dropbox - Have used for a few years, never had issues until it completely stopped working on my work laptop a little while ago.  Trying to sort through that with dropbox support now.  If I can get that working will continue using it.  Otherwise I will probably be moving to something else
 
@@ -225,33 +225,33 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 
 * Git - Haven't seriously explored whether this would work mobile, because while I like the idea of having version control for all my notes and such, the mindlessness of dropbox/skydrive probably wins out.
 
-### Project Management
+#### Project Management
 
 * **Trello ** - I really like Trello.  Its perfect for managing small scale projects of any kind, especially with multiple people involved.  Easy to organize, understand, and update.
 
-### Budgeting
+#### Budgeting
 
 * **Mint ** - My wife and I use mint to track our spending each month.
 
 * **Excel ** - We also have a spreadsheet to monitor and plan our long term spending/savings
 
-### Code Snippets
+#### Code Snippets
 
 * Snippets - I have snippets for windows set up, but haven't really used it
 
 * Sublime Text 2 Snippets - Another option that I have but haven't used. I think this will probably be my choice though.
 
-### Data Backup
+#### Data Backup
 
 * ??? - I need a good backup strategy.  Right now I'm relying mostly on cloud services.  
 
-### Password Management
+#### Password Management
 
 * ??? - I also don't have a good password management strategy.  I'd like to use 1Password, but am struggling to justify the cost/inconvenience right now.  
 
 ## Software for 2013
 
-### Desktop Software (14 programs + clients for services)
+#### Desktop Software (14 programs + clients for services)
 
 * Chrome
 * Octopress
@@ -268,7 +268,7 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 * Putty
 * Excel
 
-### Mobile Software (6 Apps + clients for services)
+#### Mobile Software (6 Apps + clients for services)
 
 * Safari
 * Snapseed
@@ -277,7 +277,7 @@ This was my end of 2012 software inventory.  The goal was to identify all of the
 * ESV Bible App
 * Check The Weather
 
-### Services (13)
+#### Services (13)
 
 * Google
 * Gmail

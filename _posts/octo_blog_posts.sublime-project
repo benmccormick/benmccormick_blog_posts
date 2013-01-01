@@ -8,4 +8,8 @@
 			"path": "/home/ben/octopress/source/_posts"
 		}
 	]
+    "settings":
+    {
+        "color_scheme": "Packages/User/Solarized (Light).tmTheme"
+    },
 }

@@ -12,7 +12,7 @@ The series will be focused on Javascript development, as that is how I use Subli
 should be applicable to any developer who uses Sublime Text as part of their workflow.
 
  * [Sublime Text For Javascript: Keyboard Shortcuts][keyboard]
- * Sublime Text For Javascript: Configuration
+ * [Sublime Text For Javascript: Configuration][configuration]
  * Sublime Text For Javascript: Plugins
 
 ## Keyboard Shortcuts
@@ -209,8 +209,9 @@ You don't need to learn all the shortcuts, but find a few that work for you and 
 If you have suggestions for other great uses of keyboard shortcuts in Sublime Text, please leave them in the comments.
 
 
-[keyboard]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-keyboard-shortcuts Keyboard Shortcuts in Sublime Text
+[keyboard]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-keyboard-shortcuts 
 
+[configuration]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-configuration
 
 
 

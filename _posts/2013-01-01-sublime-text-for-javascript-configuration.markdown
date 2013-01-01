@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sublime Text For Javascript: Configuration"
-date: 2013-01-01 14:00
+date: 2013-01-01 18:00
 comments: true
 external-url: 
 categories: [Productivity,Sublime Text]
@@ -109,7 +109,7 @@ more online with [Package Control][packagecontrol], which I'll cover more in the
 plugins article.  I use Sublime's Monokai Bright theme for JS development, and a 
 [custom Solarized theme][solarized] for writing in Markdown for this blog and my 
 notes.  You can set color scheme with a command like this in one of your settings files
-```
+```javascript Color Scheme
 "color_scheme": "Packages/User/Solarized (Light).tmTheme"
 ```
 or you can set it in the preferences menu on the top of the screen (this will set it 
@@ -121,7 +121,7 @@ You can also configure the overall look and feel of the application.  While the
 default is by no means ugly, many people prefer the [Soda][soda] theme that adds 
 some prettier gradients and a choice of a light/dark theme.  You can set that 
 like this after downloading the theme:
-```
+```javascript Theme
 "theme": "Soda Light.sublime-theme",
 ```
 
@@ -178,12 +178,33 @@ The settings modified here are buffer specific settings: they override any setti
 
 ## Plugins
 
+Plugins also sometimes have their own configuration files.  These generally mimic the format of the editor, and its adviced as usual to use the User Settings for these so as to avoid having your settings blown away with updates
+
+## Build Systems
+
+Sublime also lets you configure custom build systems to build your project.  These can be defined at the same levels of everything else, though in this case it probably makes most sense at the syntax and project level.
 
 ## Projects
 
+Projects are a great way to organize your Sublime Text files.  You can set up a project 
+at any time by creating a .sublime-project file (this will happen automatically if you choose save project or edit project in the Project toolbar menu).  The project configuration menu takes a list of folders, a list of settings, and a list of build system settings as a JSON file.  These settings will then override your user level settings for files in the folders that you specify.  This lets you meet project specifications for things like tabs or line length without constantly fiddling with settings.  You also can enable or disable different plugins based on project, and create visual distinction between projects with different color themes.
+
+## Macros
+
+Macros let you save a series of common commands as a json file.  You can then run them 
+from the "Tools/Macro" menu.  There's more information in the [unofficialdocs][macros]
+
 ## Snippets
 
+One final thing that you can configure in Sublime Text is "Snippets".  Sublime Snippets provide advanced templating ability thats configured with an XML template.  A detailed description of what you can do with snippets is available in the [unofficial docs][snippets].  Suffice it to say that it allows everything from a simple text replacement to full  templating based on a variety of environment variables.
 
+
+
+## Summary
+
+1. Pretty much everything in Sublime can be customized using JSON files
+2. Use User files or project/syntax specific files, not the Default files
+3. Learn your options and you can get a lot more out of Sublime Text
 
 
 
@@ -198,3 +219,7 @@ The settings modified here are buffer specific settings: they override any setti
 [soda]: https://github.com/buymeasoda/soda-theme/
 
 [commands]: http://www.sublimetext.com/docs/commands
+
+[snippets]: http://docs.sublimetext.info/en/latest/extensibility/snippets.html
+
+[macros]: http://docs.sublimetext.info/en/latest/extensibility/macros.html

@@ -51,7 +51,7 @@ the User-Settings file when you're initially setting up sublime so that you can
 see all of the options that are set in that file and edit them accordingly.
 
 Heres my User-Settings file for my Windows-based version of Sublime:
-```JSON My Sublime Settings
+```javascript My Sublime Settings
 {
     // Modified Solarized Theme with Mardown Support (https://gist.github.com/1904917)
    "color_scheme": "Packages/User/Solarized (Light).tmTheme",
@@ -138,7 +138,7 @@ Here are a few more quick visual tweaks
 This is where all of the information from [Monday's post][keyboard] starts to become a whole lot less useful.  All of the keyboard shortcuts that were discussed in that post are completely configurable.  Again you want to use the "User" preferences file in 
 Packages/User to set the keybindings.  Keybindings are stored in json form like this:
 
-```JSON Key Bindings example
+```javascript Key Bindings example
 { "keys": ["ctrl+z"], "command": "undo" },
 { "keys": ["ctrl+shift+z"], "command": "redo" },
 { "keys": ["ctrl+y"], "command": "redo_or_repeat" },
@@ -151,7 +151,7 @@ create your own by combining [sublime commands][commands].  One cool trick is th
 
 {% blockquote Sublime Documentation, SublimeText.com http://www.sublimetext.com/docs/2/settings.html Key-Bindings to toggle settings %}
 The toggle_setting command can be used to toggle a setting. For example, to make a key binding that toggles the word_wrap setting on the current file, you can use (in Preferences/Key Bindings - User):
-```JSON 
+```javascript 
 {
     "keys": ["alt+w"],
     "command": "toggle_setting",
@@ -162,7 +162,7 @@ The toggle_setting command can be used to toggle a setting. For example, to make
 }
 ```
 The set_setting command can be used to set a setting to a specific value. For example, this key binding makes the current file use the Cobalt color scheme:
-```JSON
+```javascript
 {
     "keys": ["ctrl+k", "ctrl+c"],
     "command": "set_setting",

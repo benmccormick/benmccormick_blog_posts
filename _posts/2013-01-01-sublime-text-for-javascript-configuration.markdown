@@ -8,8 +8,7 @@ categories: [Productivity,Sublime Text]
 ---
 
 I'm starting a new series of posts on Sublime Text, and how to get the most out of the editor.
-The series will be focused on Javascript development, as that is how I use Sublime Text, but it 
-should be applicable to any developer who uses Sublime Text as part of their workflow.
+The series will be focused on Javascript development, as that is how I use Sublime Text, but it should be applicable to any developer who uses Sublime Text as part of their workflow.
 
  * [Sublime Text For Javascript: Keyboard Shortcuts][keyboard]
  * [Sublime Text For Javascript: Configuration][configuration]
@@ -19,6 +18,8 @@ should be applicable to any developer who uses Sublime Text as part of their wor
 
 Sublime Text allows for plenty of text editing power out of the box, but the real power comes 
 when you begin configuring it to meet your own needs.  This is by definition a topic that different people will approach in different ways, but in this post I will attempt to give an overview of what is configurable in Sublime Text (**Spoiler: almost everything**), and how to configure them.
+
+<!-- more -->
 
 ## The Basics
 
@@ -30,12 +31,12 @@ From the Sublime Docs, settings are prioritized like this:
 Settings files are consulted in this order:
 
 Packages/Default/Preferences.sublime-settings
-Packages/Default/Preferences (<platform>).sublime-settings
+Packages/Default/Preferences (platform).sublime-settings
 Packages/User/Preferences.sublime-settings
-<Project Settings>
-Packages/<syntax>/<syntax>.sublime-settings
-Packages/User/<syntax>.sublime-settings
-<Buffer Specific Settings>
+&lt;Project Settings &gt;
+Packages/ &lt;syntax &gt; / &lt;syntax &gt;.sublime-settings
+Packages/User/&lt;syntax &gt;.sublime-settings
+&lt;Buffer Specific Settings &gt;
 {% endblockquote %}
 
 Settings can be set on a default, user, project, or syntax-type basis, and add specific
@@ -192,11 +193,13 @@ at any time by creating a .sublime-project file (this will happen automatically 
 ## Macros
 
 Macros let you save a series of common commands as a json file.  You can then run them 
-from the "Tools/Macro" menu.  There's more information in the [unofficialdocs][macros]
+from the "Tools/Macro" menu.  There's more information in the [unofficial docs][macros]
 
 ## Snippets
 
 One final thing that you can configure in Sublime Text is "Snippets".  Sublime Snippets provide advanced templating ability thats configured with an XML template.  A detailed description of what you can do with snippets is available in the [unofficial docs][snippets].  Suffice it to say that it allows everything from a simple text replacement to full  templating based on a variety of environment variables.
+
+Sublime contains several Javascript related snippets by default for several basic tasks, and there are more that you can find in other places around the internet.  [Here's one example by Jonathan Creamer][creamer] with a few snippets for plugin development, and a nice little console.log snippet for quick development.
 
 
 
@@ -206,6 +209,7 @@ One final thing that you can configure in Sublime Text is "Snippets".  Sublime S
 2. Use User files or project/syntax specific files, not the Default files
 3. Learn your options and you can get a lot more out of Sublime Text
 
+I hope this is helpful.  I'll be following up with one final post later this week on helpful Sublime plugins for javascript development.
 
 
 [keyboard]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-keyboard-shortcuts 
@@ -223,3 +227,5 @@ One final thing that you can configure in Sublime Text is "Snippets".  Sublime S
 [snippets]: http://docs.sublimetext.info/en/latest/extensibility/snippets.html
 
 [macros]: http://docs.sublimetext.info/en/latest/extensibility/macros.html
+
+[creamer]: http://freshbrewedcode.com/jonathancreamer/2012/07/13/a-couple-of-useful-javascript-sublime-text-2-snippets/

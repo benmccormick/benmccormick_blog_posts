@@ -13,7 +13,7 @@ should be applicable to any developer who uses Sublime Text as part of their wor
 
  * [Sublime Text For Javascript: Keyboard Shortcuts][keyboard]
  * [Sublime Text For Javascript: Configuration][configuration]
- * Sublime Text For Javascript: Plugins
+ * [Sublime Text For Javascript: Packages][plugins]
 
 ## Configuration
 
@@ -210,7 +210,9 @@ One final thing that you can configure in Sublime Text is "Snippets".  Sublime S
 
 [keyboard]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-keyboard-shortcuts 
 
-[configuration]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-configuration
+[configuration]: http://benmccormick.org/blog/2012/01/01/sublime-text-for-javascript-configuration
+
+[plugins]: http://benmccormick.org/blog/2012/01/03/sublime-text-for-javascript-plugins
 
 [packagecontrol]: http://wbond.net/sublime_packages/package_control
 

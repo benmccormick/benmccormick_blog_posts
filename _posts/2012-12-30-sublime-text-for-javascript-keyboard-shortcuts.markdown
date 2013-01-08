@@ -211,7 +211,7 @@ If you have suggestions for other great uses of keyboard shortcuts in Sublime Te
 
 [keyboard]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-keyboard-shortcuts 
 
-[configuration]: http://benmccormick.org/blog/2012/01/01/sublime-text-for-javascript-configuration
+[configuration]: http://benmccormick.org/blog/2013/01/01/sublime-text-for-javascript-configuration
 
 [plugins]: http://benmccormick.org/blog/2012/01/03/sublime-text-for-javascript-plugins
 

@@ -63,17 +63,37 @@
 			"file": "2012-12-20-awesome-software-trello.markdown",
 			"settings":
 			{
-				"buffer_size": 1313,
-				"line_ending": "Windows"
+				"buffer_size": 1337,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2012-12-30-sublime-text-for-javascript-keyboard-shortcuts.markdown",
+			"settings":
+			{
+				"buffer_size": 9913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2013-01-01-sublime-text-for-javascript-configuration.markdown",
+			"settings":
+			{
+				"buffer_size": 10784,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 360.0,
 		"selected_items":
 		[
+			[
+				"",
+				"Convert Case: Title Case"
+			],
 			[
 				"Package",
 				"Package Control: Install Package"
@@ -227,7 +247,7 @@
 				"Set Syntax: Markdown"
 			]
 		],
-		"width": 400.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -244,6 +264,19 @@
 	},
 	"file_history":
 	[
+		"/home/ben/octopress/source/_posts/2013-01-01-sublime-text-for-javascript-configuration.markdown",
+		"/home/ben/octopress/source/_posts/2012-12-25-medium-the-end-of-history-and-the-last-website.markdown",
+		"/home/ben/octopress/_config.yml",
+		"/home/ben/octopress/http",
+		"/home/ben/octopress/.themes/classic/source/_includes/article.html",
+		"/home/ben/octopress/source/_posts/2012-12-29-i-hate-computing-ecosystems.markdown",
+		"/home/ben/octopress/.themes/greyshade/source/_includes/footer.html",
+		"/home/ben/octopress/.themes/greyshade/source/_includes/fancybox.html",
+		"/home/ben/octopress/source/sublime-text-guide/index.markdown",
+		"/home/ben/octopress/source/_includes/custom/asides/about.html",
+		"/home/ben/octopress/source/_posts/2012-12-29-cleaning-my-digital-house.markdown",
+		"/home/ben/octopress/source/software-inventory/2012/index.markdown",
+		"/home/ben/octopress/.themes/greyshade/source/_includes/custom/footer.html",
 		"/C/Users/bemccorm/Documents/ScratchCalc/scratchcalc/test/tokenizer-test.js",
 		"/C/Users/bemccorm/Documents/ScratchCalc/scratchcalc/ext/qunit.js",
 		"/C/Users/bemccorm/Documents/ScratchCalc/scratchcalc/test/scanner-test.js",
@@ -358,20 +391,7 @@
 		"/C/Users/bemccorm/Documents/wordpress-bootstrap/less/bootstrap.less",
 		"/C/Users/bemccorm/Dropbox/Website/bridges/less/style.less",
 		"/C/Users/bemccorm/Documents/wordpress-bootstrap/less/type.less",
-		"/C/Users/bemccorm/Documents/wordpress-bootstrap/less/responsive.less",
-		"/C/Users/bemccorm/AppData/Local/Temp/Temp1_wordpress-bootstrap-v2.2.zip/wordpress-bootstrap/index.php",
-		"/C/Users/bemccorm/Downloads/wordpress-bootstrap-v2.2.zip",
-		"/C/Users/bemccorm/Documents/wordpress-bootstrap/style.css",
-		"/C/Users/bemccorm/Documents/wordpress-bootstrap/sidebar.php",
-		"/C/Users/bemccorm/Documents/wordpress-bootstrap/functions.php",
-		"/C/Users/bemccorm/Documents/wordpress-bootstrap/library/bones.php",
-		"/C/Users/bemccorm/Dropbox/Website/bridges/index.html",
-		"/C/Users/bemccorm/Documents/wordpress-bootstrap/less/layouts.less",
-		"/C/Users/bemccorm/AppData/Roaming/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
-		"/C/users/bemccorm/appdata/local/temp/sublime-sftp-browse-1347419918/benmccormickorg/sftp-config.json",
-		"/C/Users/bemccorm/Dropbox/Goals/goal_tracking",
-		"/C/users/bemccorm/appdata/local/temp/sublime-sftp-browse-1347419918/benmccormickorg/public_html/experiments/bridges/wp-content/themes/wordpress-bootstrap/style.css",
-		"/C/Users/bemccorm/Dropbox/aptproblemanalysis.txt"
+		"/C/Users/bemccorm/Documents/wordpress-bootstrap/less/responsive.less"
 	],
 	"find":
 	{
@@ -390,6 +410,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&rt",
+			"JSON",
+			"Ctrl",
+			"\n* Ctrl",
+			"* ",
+			"link",
+			"###",
+			"Website",
+			"web",
+			"Web",
+			"\n### ",
+			"###",
+			"Professional",
+			"\n### ",
+			"###",
+			"Website",
+			"web",
+			"Web",
+			"\n### ",
+			"###",
+			"HEAD",
 			"binOpNode",
 			"dollar",
 			"VarNode",
@@ -496,28 +537,7 @@
 			"{",
 			"toLower",
 			"punc",
-			"isVar",
-			"'",
-			"\"log(\",\n\"ln(\",\n\"exp(\",\n\"floor(\",\n\"ceil(\",\n\"neg(\",\n\"rnd(\",\n\"sin(\",\n\"cos(\",\n\"tan(\",\n\"asin(\",\n\"acos(\",\n\"atan(\",\n\"abs(\",\n\"(\"]",
-			"&reportClass=com.cisco.mwg.sgm.web.stats.PMMultiReports",
-			"navTreeNodeId=hotchart_._hotchart_._hchart_",
-			":4440/ppm/jsp/reports/statsQuery.jsp?sgmid=-1&",
-			"\\\\",
-			"{}",
-			"(){});",
-			"{",
-			"animation",
-			"undefined",
-			"=== undefined",
-			"40",
-			"colwidth",
-			"jshint",
-			"Threshold : 'ICMPGetEvents' - 'Node=ems3825a.cisco.com' crossed threshold for 'ICMP Ping Dashboard 15 Minute/Response Time Avg Millisecs' time period : '2012-10-22 08:45:00.0' - value '253' threshold '105'.",
-			"variables",
-			"dojo",
-			"browser",
-			"getContacts",
-			"getContact"
+			"isVar"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -525,6 +545,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"####",
 			"\"",
 			",\"\" ,",
 			"[\"\" ,",
@@ -561,7 +582,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -569,15 +590,15 @@
 					"file": "2012-12-20-awesome-software-trello.markdown",
 					"settings":
 					{
-						"buffer_size": 1313,
+						"buffer_size": 1337,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								158,
+								158
 							]
 						],
 						"settings":
@@ -690,6 +711,60 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2012-12-30-sublime-text-for-javascript-keyboard-shortcuts.markdown",
+					"settings":
+					{
+						"buffer_size": 9913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 437.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "2013-01-01-sublime-text-for-javascript-configuration.markdown",
+					"settings":
+					{
+						"buffer_size": 10784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1045,
+								1032
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 363.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -744,6 +819,10 @@
 		"selected_items":
 		[
 			[
+				"sublime",
+				"_posts/2012-12-30-sublime-text-for-javascript-keyboard-shortcuts.markdown"
+			],
+			[
 				"treebui",
 				"test/treebuilder-test.js"
 			],
@@ -785,7 +864,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 226.0,
 	"status_bar_visible": true
 }

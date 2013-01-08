@@ -18,6 +18,8 @@ should be applicable to any developer who uses Sublime Text as part of their wor
 A large part of Sublime Text's power comes from its extensive collection of packages.  
 There are packages for pretty much every use case.  I'm going to limit myself to listing 5 of the most useful for Javascript development, but its definitely worth looking around at the options to find more that fit what you want to do.
 
+<!-- more -->
+
 ## #1. Package Control - The Essential Plugin
 
 [Package Control][packagecontrol] is the very first package anyone should install for Sublime Text.  It makes it easy to install any other package without having to clone Git repositories or work through Sublimes file structure.  And the author has made it relatively easy to install Package control as well.  All that is required is a quick copy and paste of code provided on the developers website.  Package control makes it easy to install new packages, snippets, themes, and color schemes.
@@ -50,7 +52,7 @@ In the end different packages work for different people.  I highly recommend ins
 
 [keyboard]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-keyboard-shortcuts 
 
-[configuration]: http://benmccormick.org/blog/2012/01/01/sublime-text-for-javascript-configuration
+[configuration]: http://benmccormick.org/blog/2013/01/01/sublime-text-for-javascript-configuration
 
 [plugins]: http://benmccormick.org/blog/2012/01/03/sublime-text-for-javascript-plugins
 

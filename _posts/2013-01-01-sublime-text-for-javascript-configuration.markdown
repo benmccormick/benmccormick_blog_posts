@@ -214,7 +214,7 @@ I hope this is helpful.  I'll be following up with one final post later this wee
 
 [keyboard]: http://benmccormick.org/blog/2012/12/30/sublime-text-for-javascript-keyboard-shortcuts 
 
-[configuration]: http://benmccormick.org/blog/2012/01/01/sublime-text-for-javascript-configuration
+[configuration]: http://benmccormick.org/blog/2013/01/01/sublime-text-for-javascript-configuration
 
 [plugins]: http://benmccormick.org/blog/2012/01/03/sublime-text-for-javascript-plugins
 

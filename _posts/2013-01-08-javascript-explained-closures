@@ -105,12 +105,24 @@ Since the outer function scope is maintained, you can also use the variables wit
 
 Closures are one of the most commonly used idioms in javascript.  They're used anytime a programmer wants to protect their implementation of a feature, and prevent other code from directly referencing internal variables.  Its also the key concept in the popular [module pattern][module], and many more javascript patterns.  If you are writing javascript of any complexity, or need to understand other people's javascript code, understanding closures is essential.
 
+---
+
 ## Further Reading
 
 - [Mozilla Documentation on Closures][mdnclosures]
 - [Ben Cherry on the Module Pattern][module]
 - [Effective Javascript][effectivejs] is a great book for understanding javascript.  I wrote a review of it [here][effectivejsreview]
 
+---
+
+### Explaining Javascript
+
+This is the first article in my Explaining Javascript series for introducing Javascript concepts to new JS developers.  
+
+1. [Closures][ejsclosures]
+2. [Object Oriented Programming][ejsoop]
+
+---
 
 [^1]: Assigning properties to functions is usually not advised
 [^2]: Both languages are in the process of adding greater support for first class functions.  But it's not a common idiom.
@@ -121,3 +133,5 @@ Closures are one of the most commonly used idioms in javascript.  They're used a
 [mdnclosures]: https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Closures
 [effectivejs]: http://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182
 [effectivejsreview]: http://benmccormick.org/blog/2013/01/06/book-review-effective-javascript/
+[ejsclosures]: http://www.benmccormick.org/blog/2013/01/08/javascript-explained-closures/
+[ejsoop]: http://www.benmccormick.org/blog/2013/01/12/javascript-explained-object-oriented-javascript/

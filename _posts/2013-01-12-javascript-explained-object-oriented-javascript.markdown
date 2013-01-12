@@ -73,14 +73,17 @@ So as you can see, it is very possible to write Object-Oriented Javascript.  The
 #### Summary
 
 - Inheritance and object oriented programming in javascript are possible, but are more of a programmer defined construct rather than an inherent property of the language
+
 - Javascript supports prototypical inheritance, meaning that it inherits functions and properties from its prototype object.  All objects inherit from Object.prototype.
--ECMAScript 5 introduced support for Object.create, which provides an easier syntax for creating new objects and simulating inheritance.
+
+- ECMAScript 5 introduced support for Object.create, which provides an easier syntax for creating new objects and simulating inheritance.
 
 ---
 
 ### Further Reading
 
 - [Mozilla's Developer Documentation][mdnoo] has a good summary of implementing Object Oriented Programming concepts in Javascript
+
 - [Managing Javascript Objects][zakasmanaging] is a great article by Nicholas Zakas for MSDN about designing an object oriented application in Javascript.  Zakas also has recently written a [book][zakasbook] on object oriented programming in Javascript
 
 ---
@@ -90,7 +93,9 @@ So as you can see, it is very possible to write Object-Oriented Javascript.  The
 This is the second article in my Explaining Javascript series for introducing Javascript concepts to new JS developers.  
 
 1. [Closures][ejsclosures]
+
 2. [Object Oriented Programming][ejsoop]
+
 
 ---
 

@@ -52,6 +52,7 @@ the User-Settings file when you're initially setting up sublime so that you can
 see all of the options that are set in that file and edit them accordingly.
 
 Heres my User-Settings file for my Windows-based version of Sublime:
+
 ```javascript My Sublime Settings
 {
     // Modified Solarized Theme with Mardown Support (https://gist.github.com/1904917)
@@ -110,9 +111,11 @@ more online with [Package Control][packagecontrol], which I'll cover more in the
 plugins article.  I use Sublime's Monokai Bright theme for JS development, and a 
 [custom Solarized theme][solarized] for writing in Markdown for this blog and my 
 notes.  You can set color scheme with a command like this in one of your settings files
+
 ```javascript Color Scheme
 "color_scheme": "Packages/User/Solarized (Light).tmTheme"
 ```
+
 or you can set it in the preferences menu on the top of the screen (this will set it 
 in your User-Settings file)
 
@@ -122,6 +125,7 @@ You can also configure the overall look and feel of the application.  While the
 default is by no means ugly, many people prefer the [Soda][soda] theme that adds 
 some prettier gradients and a choice of a light/dark theme.  You can set that 
 like this after downloading the theme:
+
 ```javascript Theme
 "theme": "Soda Light.sublime-theme",
 ```
@@ -152,6 +156,7 @@ create your own by combining [sublime commands][commands].  One cool trick is th
 
 {% blockquote Sublime Documentation, SublimeText.com http://www.sublimetext.com/docs/2/settings.html Key-Bindings to toggle settings %}
 The toggle_setting command can be used to toggle a setting. For example, to make a key binding that toggles the word_wrap setting on the current file, you can use (in Preferences/Key Bindings - User):
+
 ```javascript 
 {
     "keys": ["alt+w"],
@@ -162,7 +167,9 @@ The toggle_setting command can be used to toggle a setting. For example, to make
     }
 }
 ```
+
 The set_setting command can be used to set a setting to a specific value. For example, this key binding makes the current file use the Cobalt color scheme:
+
 ```javascript
 {
     "keys": ["ctrl+k", "ctrl+c"],
@@ -174,6 +181,7 @@ The set_setting command can be used to set a setting to a specific value. For ex
     }
 }
 ```
+
 The settings modified here are buffer specific settings: they override any settings placed in a settings file, but apply to the current file only.
 {% endblockquote %}
 

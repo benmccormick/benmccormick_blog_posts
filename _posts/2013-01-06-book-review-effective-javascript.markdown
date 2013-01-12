@@ -12,6 +12,7 @@ categories: [Book Review, Javascript]
 
 After seeing some positive early reviews, I went to Amazon last week and bought "Effective Javascript" by David Herman.  I'm glad that I did.  The book is a great experience for anyone who wants to deepen their understanding of the javascript language in a practical grounded fashion. 
 
+<!-- more -->
 
 ### Whats the book like?
 

@@ -9,6 +9,8 @@ categories: [Closures, Javascript, Explaining Javascript]
 
 I'm continuing this series on Javascript concepts for people new to the language by looking at  object oriented programming.  One of the more confusing concepts for new Javascript programmers, especially those used to the classical inheritance structures of Java or C++ is Javascript's prototypical inheritance model.  Because it is possible to write syntax for Javascript object creation that can look very similar to classical inheritance in Java, its easy to be misled and have false expectations.  Its important to understand how Javascript's object model works, so that you can adjust your expectations and write code that takes advantage of the language's expressive power.
 
+<!-- more -->
+
 #### Creating a new object
 
 Javascript provides multiple ways to create new objects.  The simplest way is to just create an empty object with ```{}```.  The one I'll be looking at today was modeled after Java syntax and gives the language a deceptively classical vibe:

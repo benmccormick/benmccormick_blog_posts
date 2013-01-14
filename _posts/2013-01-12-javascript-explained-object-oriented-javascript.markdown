@@ -51,9 +51,9 @@ Javascript inheritance is at its heart "prototypical inheritance".  This means t
 
 #### The ES5 Way
 
-The ECMAScript 5 specification defines a new way to create objects from existing objects with the **[Object.create()][createmdn]** syntax.  Object.create takes an existing object and sets it as the prototype object for a newly created object[^2].  This allows us to simulate classical inheritance
+The ECMAScript 5 specification defines a new way to create objects from existing objects with the **[Object.create()][createmdn]** syntax.  Object.create takes an existing object and sets it as the prototype object for a newly created object[^2].  This was added to make the syntax for setting the prototype of a new object easier and more clear.[^3]  It also allows us to simulate classical inheritance:
 
-```javascript ES5 inheritance example
+```javascript ES5 Classical Inheritance example
     var Cat = function(){
         Animal.call(this); //Call the Animal constructor to set local variables
         this.noise = "meow" //override the Animal sound
@@ -104,6 +104,8 @@ This is the second article in my Explaining Javascript series for introducing Ja
 
 [^2]: With an optional second argument to set the local properties of the object from another object.  Note that these properties will need to be Objects, not primitive values, or a TypeError will be thrown
 
+[^3]: Thanks to [Eric Elliot][eelliot] for pointing out that my original description of Object.Create was misleading.  There are multiple ways to create and reuse object code in Javascript.  I only touch on one of them in this article.  
+
 
 
 
@@ -115,3 +117,4 @@ This is the second article in my Explaining Javascript series for introducing Ja
 [zakasbook]: https://leanpub.com/oopinjavascript
 [ejsclosures]: http://www.benmccormick.org/blog/2013/01/08/javascript-explained-closures/
 [ejsoop]: http://www.benmccormick.org/blog/2013/01/12/javascript-explained-object-oriented-javascript/
+[eelliot]: https://plus.google.com/u/0/110077141419510454119/posts

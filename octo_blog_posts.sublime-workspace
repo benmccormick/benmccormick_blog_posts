@@ -95,9 +95,17 @@
 			"file": "_posts/2013-01-12-javascript-explained-object-oriented-javascript.markdown",
 			"settings":
 			{
-				"buffer_size": 6757,
+				"buffer_size": 6773,
 				"line_ending": "Windows",
 				"name": "---"
+			}
+		},
+		{
+			"file": "_posts/2013-01-15-unexpected-javascript-that-doesnt-do-what-you-think.markdown",
+			"settings":
+			{
+				"buffer_size": 6729,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -131,6 +139,10 @@
 		"height": 86.0,
 		"selected_items":
 		[
+			[
+				"set syntax mar",
+				"Set Syntax: Markdown"
+			],
 			[
 				"set markd",
 				"Set Syntax: Markdown"
@@ -512,6 +524,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ed",
 			"opject",
 			"plugin",
 			"unofficial",
@@ -638,8 +651,7 @@
 			"isVar",
 			"'",
 			"\"log(\",\n\"ln(\",\n\"exp(\",\n\"floor(\",\n\"ceil(\",\n\"neg(\",\n\"rnd(\",\n\"sin(\",\n\"cos(\",\n\"tan(\",\n\"asin(\",\n\"acos(\",\n\"atan(\",\n\"abs(\",\n\"(\"]",
-			"&reportClass=com.cisco.mwg.sgm.web.stats.PMMultiReports",
-			"navTreeNodeId=hotchart_._hotchart_._hchart_"
+			"&reportClass=com.cisco.mwg.sgm.web.stats.PMMultiReports"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -684,7 +696,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -699,8 +711,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1045,
+								1032
 							]
 						],
 						"settings":
@@ -1193,7 +1205,7 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 522.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1203,15 +1215,15 @@
 					"file": "_posts/2013-01-12-javascript-explained-object-oriented-javascript.markdown",
 					"settings":
 					{
-						"buffer_size": 6757,
+						"buffer_size": 6773,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6076,
-								6076
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1323,13 +1335,144 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1971.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "_posts/2013-01-15-unexpected-javascript-that-doesnt-do-what-you-think.markdown",
+					"settings":
+					{
+						"buffer_size": 6729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								986,
+								986
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"bitwise": true,
+								"browser": true,
+								"curly": true,
+								"devel": false,
+								"dojo": true,
+								"eqeqeq": true,
+								"indent": 4,
+								"jQuery": true,
+								"latedef": true,
+								"maxlen": 80,
+								"newcap": true,
+								"noempty": true,
+								"nonew": true,
+								"quotmark": "double",
+								"undef": true,
+								"unused": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"spell_check": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"settings":
 					{
 						"buffer_size": 343,
@@ -1455,7 +1598,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "_posts/2012-10-06-it-took-a-month-to-get-sick-of-php.markdown",
 					"settings":
 					{
@@ -1582,7 +1725,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "2012-12-25-medium-the-end-of-history-and-the-last-website.markdown",
 					"settings":
 					{

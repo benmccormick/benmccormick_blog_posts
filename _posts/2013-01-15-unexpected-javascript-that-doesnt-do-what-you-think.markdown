@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Unexpected Javascript: That Doesn't Do What You Think." 
+title: "Unexpected Javascript: That Doesn't Do What You Think" 
 date: 2013-01-15 23:30 
 comments: true 
 external-url: 
@@ -13,12 +13,12 @@ When I started writing Javascript, I encountered a lot of stuff that was just pl
 
 ### Equality Problems
 
-1. ```0.1+0.2 === .3``` [^1]
-2. ```10000000000000001+20000000000000000 === 300000000000000001``` [^2]
+1. ```0.1+0.2 === .3``` is true [^1]
+2. ```10000000000000001+20000000000000000 === 300000000000000001``` is true [^2]
 3. ``` x === x ``` is true for all values of x [^3]
-4. ```"1.0e0" != {valueOf: function(){ return true;}};``` [^4]
+4. ```"1.0e0" == {valueOf: function(){ return true;}};``` is false [^4]
 5. if ```x==y``` and ```x==z``` then ```z==y``` [^5]
-6. ```parseInt('016') === 16``` [^6]
+6. ```parseInt('016') === 16``` is true. [^6]
 
 ### Environment Concerns
 
@@ -39,38 +39,40 @@ When I started writing Javascript, I encountered a lot of stuff that was just pl
 1. I will always know what ```this``` is when the function is run [^15]
 2. You can get the last argument of the function using ```arguments.pop()``` [^16]
 3. The following will generate different names and alerts for each link: [^17]
-
-```javascript 
-function addLinks () {
-    for (var i=0, link; i<5; i++) {
-        link = document.createElement("a");
-        link.innerHTML = "Link " + i;
-        link.onclick = function () {
-            alert(i);
-        };
-        document.body.appendChild(link);
-    }
-}
-```
+        {% codeblock lang:javascript %}
+        function addLinks () {
+            for (var i=0, link; i<5; i++) {
+                link = document.createElement("a");
+                link.innerHTML = "Link " + i;
+                link.onclick = function () {
+                    alert(i);
+                };
+                document.body.appendChild(link);
+            }
+        }
+        {% endcodeblock %}
+    
 4.  The following function will return 1: [^18]
+        {% codeblock lang:javascript %}
+        (function f(){
+            function f(){ return 1; }
+            return f();
+            function f(){ return 2; }
+          })();
+        {% endcodeblock %}
 
-```javascript
-(function f(){
-    function f(){ return 1; }
-    return f();
-    function f(){ return 2; }
-  })();
-  ```
 5. The if statement code can be removed here with no side effects: [^19]
 
-``` javascript
-function testf(){
-  x=3;
-  if(false){
-    var x=5;
-  }
-}
-```
+        {% codeblock lang:javascript %}
+        function testf(){
+          x=3;
+          if(false){
+            var x=5;
+          }
+        }
+        {% endcodeblock %}
+
+#### Explanations here:
 ---
 
 [^1]: Actually comes to 0.30000000000000004 See [here][floatingpoint]

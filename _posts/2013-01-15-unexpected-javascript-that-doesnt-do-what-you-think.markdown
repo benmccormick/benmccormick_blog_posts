@@ -13,32 +13,32 @@ When I started writing Javascript, I encountered a lot of stuff that was just pl
 
 ### Equality Problems
 
-1. ```0.1+0.2 === .3``` is true [^1]
-2. ```10000000000000001+20000000000000000 === 300000000000000001``` is true [^2]
-3. ``` x === x ``` is true for all values of x [^3]
-4. ```"1.0e0" == {valueOf: function(){ return true;}};``` is false [^4]
-5. if ```x==y``` and ```x==z``` then ```z==y``` [^5]
-6. ```parseInt('016') === 16``` is true. [^6]
+- ```0.1+0.2 === .3``` is true [^1]
+- ```10000000000000001+20000000000000000 === 300000000000000001``` is true [^2]
+- ``` x === x ``` is true for all values of x [^3]
+- ```"1.0e0" == {valueOf: function(){ return true;}};``` is false [^4]
+- if ```x==y``` and ```x==z``` then ```z==y``` [^5]
+- ```parseInt('016') === 16``` is true. [^6]
 
 ### Environment Concerns
 
-1. ```window``` will always be available as a global variable [^7]
-2. Javascript will always be enabled on your web page [^8]
-3. If it works in firebug it will work in the browser [^9]
+- ```window``` will always be available as a global variable [^7]
+- Javascript will always be enabled on your web page [^8]
+- If it works in firebug it will work in the browser [^9]
 
 ### Code Structure
 
-1. You don't need to add semicolons in javascript, they're inserted automatically [^10]
-2. I always add semicolons, so I don't need to know about how they're inserted [^11]
-3. The var keyword is unnecessary, variables are created just by referencing them. [^12]
-4. ```return eval("x")``` is the same as ```var a = eval; return a("x");``` [^13]
-5. Functions are the only thing in Javascript that restrict scope.  [^14]
+- You don't need to add semicolons in javascript, they're inserted automatically [^10]
+- I always add semicolons, so I don't need to know about how they're inserted [^11]
+- The var keyword is unnecessary, variables are created just by referencing them. [^12]
+- ```return eval("x")``` is the same as ```var a = eval; return a("x");``` [^13]
+- Functions are the only thing in Javascript that restrict scope.  [^14]
 
 ### Function Issues
 
-1. I will always know what ```this``` is when the function is run [^15]
-2. You can get the last argument of the function using ```arguments.pop()``` [^16]
-3. The following will generate different names and alerts for each link: [^17]
+- I will always know what ```this``` is when the function is run [^15]
+- You can get the last argument of the function using ```arguments.pop()``` [^16]
+- The following will generate different names and alerts for each link: [^17]
         {% codeblock lang:javascript %}
         function addLinks () {
             for (var i=0, link; i<5; i++) {
@@ -52,7 +52,7 @@ When I started writing Javascript, I encountered a lot of stuff that was just pl
         }
         {% endcodeblock %}
     
-4.  The following function will return 1: [^18]
+-  The following function will return 1: [^18]
         {% codeblock lang:javascript %}
         (function f(){
             function f(){ return 1; }
@@ -61,7 +61,7 @@ When I started writing Javascript, I encountered a lot of stuff that was just pl
           })();
         {% endcodeblock %}
 
-5. The if statement code can be removed here with no side effects: [^19]
+- The if statement code can be removed here with no side effects: [^19]
 
         {% codeblock lang:javascript %}
         function testf(){

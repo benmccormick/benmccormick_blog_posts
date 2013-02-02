@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/C/Users/bemccorm/Documents/benmccormick_blog_posts"
+		},
+		{
+			"path": "/home/ben/octopress/source/_posts"
+		}
+	],
+    "settings":
+    {
+        // Modified Solarized Theme with Mardown Support (https://gist.github.com/1904917)
+    "color_scheme": "Packages/User/Solarized (Light).tmTheme"
+    }
+}

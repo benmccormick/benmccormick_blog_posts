@@ -1,0 +1,10 @@
+#Files to ignore for My blog
+_includes/
+_layouts/
+assets/
+atom.xml
+font/
+index.html
+javascripts/
+robots.txt
+stylesheets/

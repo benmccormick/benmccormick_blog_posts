@@ -74,7 +74,7 @@ When I started writing Javascript, I encountered a lot of stuff that was just pl
 
 #### Explanations here:
 
----
+
 
 [^1]: Actually comes to 0.30000000000000004 See [here][floatingpoint]
 

@@ -45,7 +45,7 @@ JavaScript Testing with Jasmine</a><img src="http://www.awltovhc.com/image-71191
 - [Jasmine Home Page][jasminedocs] - Learn more about Jasmine straight from the source 
 - [Medium Equals Message][cwebb] - another review of the book from Chris Webb
 
----
+
 
 [^1]: This review is part of the [O'Reilly Blogger Program][oreilly].  I am not compensated for this review, but did receive a free review copy of the book, and the link to buy the book is an affiliate link.  The opinions expressed here are my own.
 

@@ -99,7 +99,6 @@ This is the second article in my Explaining Javascript series for introducing Ja
 2. [Object Oriented Programming][ejsoop]
 
 
----
 
 
 [^1]: In the next version of Javascript ES6 there will be a more formal concept of classes.  You can read more [here][es6classes] if interested

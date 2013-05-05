@@ -113,7 +113,7 @@ Closures are one of the most commonly used idioms in javascript.  They're used a
 - [Ben Cherry on the Module Pattern][module]
 - [Effective Javascript][effectivejs] is a great book for understanding javascript.  I wrote a review of it [here][effectivejsreview]
 
----
+
 
 
 [^1]: Assigning properties to functions is usually not advised

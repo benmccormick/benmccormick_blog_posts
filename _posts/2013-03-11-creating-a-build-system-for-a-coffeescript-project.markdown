@@ -303,9 +303,7 @@ Adding a build system has been great for my project.  Its allowed me to be a lot
 
 - [Maintainable Javascript][maintainablejs] - This is a great little book for anyone writing Javascript applications in teams.  It has a great section on developing a Javascript build system with Ant
 
----
 
-#### Footnotes
 
 [^1]: Yep I'm a sucker for significant whitespace.
 

@@ -1,9 +1,9 @@
 ---
 layout: post 
 title: "Creating a Build System For a Coffeescript Project with Ant" 
-date: 2013-23-11 16:23 
+date: 2013-03-23 16:23 
 comments: true 
-external-url: 
+external-url: http://www.google.com
 categories: [Ant, Javascript, Software Process, Coffeescript, Nodejs] 
 ---
 
@@ -13,7 +13,7 @@ I've recently taken the time to develop an organized build system for a [Coffees
 
 ### Getting Started
 
-The first step is to install Ant.  It comes preinstalled on OSX, is [fairly straightforward][antlinux] to install on Linux, and is [a bit more involved][antwindows]. to install on Windows  If you're using my exact setup, you'll also need [NodeJS][nodejs] (for Coffeescript, UglifyJS,and Docco) and [Ruby][ruby] (for SASS) installed.  
+The first step is to install Ant.  It comes preinstalled on OSX, is [fairly straightforward][antlinux] to install on Linux, and is [a bit more involved][antwindows] to install on Windows  If you're using my exact setup, you'll also need [NodeJS][nodejs] (for Coffeescript, UglifyJS,and Docco) and [Ruby][ruby] (for SASS) installed.  
 
 ### My Project Structure
 
@@ -191,7 +191,7 @@ I use Jasmine for testing.  [Jasmine][jasmine] is a "Behavior Driven Development
     </fileset>
   </apply>
 </target>
-{%endcodeblock %}
+{%endcodeblock%}
 
 ### Summary
 
@@ -247,7 +247,7 @@ Adding a build system has been great for my project.  Its allowed me to be a lot
       <arg value="--join" />
       <arg value="${build.script.output}" />
       <srcfile />
-      <filelist dir ="${src.script.dir}" files="editor/toolkit.coffee,editor/markupGen.coffee,parser/eqTreeBuilder.coffee,parser/NumberValue.coffee,parser/eqScanner.coffee,parser/eqTokenizer.coffee,parser/tablePlaceHolder.coffee,parser/EQParser.coffee,parser/calcFramework.coffee,editor/editor.coffee" />
+      <filelist dir ="${src.script.dir}" files="..." />
     </apply>
   </target>
 
@@ -321,4 +321,3 @@ Adding a build system has been great for my project.  Its allowed me to be a lot
 [nodejs]: http://nodejs.org/
 [ruby]: http://www.ruby-lang.org/
 [markdown]: http://daringfireball.net/projects/markdown/
-

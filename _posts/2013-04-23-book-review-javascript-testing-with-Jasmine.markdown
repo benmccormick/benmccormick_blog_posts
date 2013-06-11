@@ -4,7 +4,7 @@ title: "Book Review: Javascript Testing with Jasmine"
 date: 2013-04-23 21:30
 comments: true
 external-url: 
-categories: [Book Review, Jasmine, Javascript]
+categories: [Book Review, Jasmine,Javascript]
 ---
 
 I received[^1] a copy of Javascript Testing with Jasmine by Evan Hahn this week, and it seemed like perfect timing.  The developers on my team at work have been discussing using Jasmine to automate the testing of Javascript code in our product, and I may be spending a significant amount of time with it soon.  I was hoping to pick up on some tips and tricks, and maybe learn some things about testing.  It ended up being a quick read with some useful tidbits that left me wanting more.

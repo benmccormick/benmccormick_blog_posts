@@ -4,7 +4,7 @@ title: "Creating a Build System For a Coffeescript Project with Ant"
 date: 2013-03-23 16:23 
 comments: true 
 external-url: http://www.google.com
-categories: [Ant, Javascript, Software Process, Coffeescript, Nodejs] 
+categories: [Ant, Coffeescript, Nodejs] 
 ---
 
 I've recently taken the time to develop an organized build system for a [Coffeescript][Coffeescript] and [SASS](http://sass-lang.com/)[^1] [project][scratchcalc] that I've been working on in my free time.  I learned a lot during the process, and I wanted to share my experience here.  I used Ant for my build system, and worked in a variety of different libraries for minification, testing and documentation.

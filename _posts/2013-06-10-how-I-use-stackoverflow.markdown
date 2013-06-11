@@ -7,9 +7,6 @@ external-url:
 categories: [Stack Overflow]
 ---
 
-
-
-
 >The problem with self directed learning is that our ability to learn is often constrained by the very problem we are trying to solve, our limited knowledge of a field.
 
 One of the fundamental truths of the software industry is that self driven learning is a necessity for staying relevant.  Especially when working on evolving platforms like the web and mobile, things change fast.  The web frameworks of 2005 have little direct relevance to web development in 2013, and mobile development was a category that didn't really exist in 2005, at least not in a form recognizable to todays world.  If you want to be at the top of your field, or even anywhere close, learning and growing independent of whatever your current task happens to be is incredibly important.  But there are issues with this.
@@ -18,9 +15,11 @@ The problem with self directed learning is that our ability to learn is often co
 
 ### Enter Stack Overflow
 
-If the problem is that we don't ask the right questions, a Q&A site seems like a dubious solution.  But [Stack Overflow][so] has been the best tool I've ever found for self-directed learning. Its a crazy hybrid between a wiki, Q&A site, forum, and video game originally conceived by [Jeff Atwood][ja] and [Joel Spolsky][js] back in 2008.  With ambitions to become a comprehensive programming archive for the web,  the site has become a critical resource for programmers. In fact its the [92nd most visited website in the world][alexa] as of June 2013.
+> [Developers] often won't just answer within the scope of the question, they'll help you ask the right questions instead
 
-    TODO
+If the problem is that we don't ask the right questions, a Q&A site seems like a dubious solution.  But [Stack Overflow][so] has been the best tool I've ever found for self-directed learning. Its a crazy hybrid between a wiki, Q&A site, forum, and video game originally conceived by [Jeff Atwood][ja] and [Joel Spolsky][js] back in 2008.  With ambitions to become a comprehensive programming archive for the web,  the site has become a critical resource for programmers. In fact its the [92nd most visited website in the world][alexa] as of June 2013. 
+
+So how does StackOverflow enable self directed learning?  The most obvious way is allowing open-ended questions to be asked, with answers crowd-sourced from a global community of developers.  The killer feature when asking questions is that developers often won't just answer within the scope of the question, they'll help you ask the right questions instead.  If you ask how to change the backgrounds of a group of DOM items given a list of ids, you're likely to get an answer (or 5) while also helpfully being informed of the existence of classes.  Because multiple answers are allowed you may be exposed to multiple approaches.  There is plenty to be learned this way.  Stack Overflow also helps automate this process by suggesting related questions as you type your questions, based on keywords.  The AI behind this is quite good, and usually causes me to abandon my question writing as I realize that my question has already been asked and answered.
 
 ### How To Learn
 
@@ -49,7 +48,7 @@ I was, and am, by no means a Javascript expert.  But I have learned a lot throug
 
 [^1]: Satisfaction is of course relative.  Sometimes the user who asked the question may be happy with an answer that I think is wrong or questionable, sometime I  may feel like the question has been answered well even if the original poster did not get the exact answer he was looking for. 
 
-[^2]: Interesting for me means vanillaJS questions or referencing web technologies or libraries that I'm interested in.  I'll take a look at other questions, but I generally avoid trying to answer questoins that I feel would require real understanding of a framework to answer idiomatically if I don't already know the framework.
+[^2]: Interesting for me means vanillaJS questions or referencing web technologies or libraries that I'm interested in.  I'll take a look at other questions, but I generally avoid trying to answer questions that I feel would require real understanding of a framework to answer idiomatically if I don't already know the framework.
 
 [^3]: Along with contemplating for the thousandth time why people try to use jQuery without including the library in a script tag first.
 

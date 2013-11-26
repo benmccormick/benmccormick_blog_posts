@@ -8,3 +8,8 @@ index.html
 javascripts/
 robots.txt
 stylesheets/
+fonts/
+images/
+# Don't ignore
+!images/post_images
+
